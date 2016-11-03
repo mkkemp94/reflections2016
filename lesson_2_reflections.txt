@@ -25,4 +25,11 @@ time.
 
 -----------------------------------------------------------------------------
 
-	
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?	
+
+	Branches make it so that you have a copy of a project to work on that won't effect the main project.
+If you add something that doesn't end up working, the history of the master branch won't be affected.
+
+-----------------------------------------------------------------------------
+
