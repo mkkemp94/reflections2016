@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Initializing a repository makes it a git repository. This means that 
+from now on all commits will be saved into a history that can be tracked and
+easily accessed.
