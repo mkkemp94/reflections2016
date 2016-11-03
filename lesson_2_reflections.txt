@@ -3,3 +3,26 @@ What happens when you initialize a repository? Why do you need to do it?
 	Initializing a repository makes it a git repository. This means that 
 from now on all commits will be saved into a history that can be tracked and
 easily accessed.
+
+-----------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	The staging area is a middle ground between the working directory and the git repository.
+It allows you to add any files you like to it (not strictly all of them) and from there you 
+can send them to the repository. This allows for commit messages to be different among groups 
+of file(s). The files in the staging area get committed and then added to the repository
+with a certain message, and then other files in the working directory can be added with different
+commit messages.
+
+-----------------------------------------------------------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using the staging area, logical commit messages can be given to one {group of} file(s) at a
+time.
+
+-----------------------------------------------------------------------------
+
+	
