@@ -87,3 +87,5 @@ How can you use the commands git log and git diff to view the history of files?
 	git log allows you to see all of the commits in a project's history, inculding their ids
 and commit messages. We can put two ids into git diff to find all of the changes made between the
 two versions.
+
+:)
