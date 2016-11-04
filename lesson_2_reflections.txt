@@ -33,3 +33,20 @@ If you add something that doesn't end up working, the history of the master bran
 
 -----------------------------------------------------------------------------
 
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams let me know what is connected to what, as far as branches go, and which commits can 
+be accessed. They remind me of linked lists, in that everything has a parent except for the initial
+commit at the very begining.
+
+-----------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	By merging two branches together, the changes made for each branch are added together, provided 
+there are no conflicts. The two banches' histories can also be accessed from this one merged state.
+They are listed by time created, though, so it may be more useful to use git show to compare with 
+parents rather than git diff.
+
+-----------------------------------------------------------------------------
+
