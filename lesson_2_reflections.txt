@@ -50,3 +50,12 @@ parents rather than git diff.
 
 -----------------------------------------------------------------------------
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Merge conflicts are a real pain. However, by manually going into the code and changing/adding/
+removing lines, it is more likely that the code will do as you want it to in the end. There are times
+when a simple automatic merge will suffice, though. These usually only go through when there are no 
+merge conflicts, and therefore it is less likely these will harm our code.
+
+-----------------------------------------------------------------------------
+
